@@ -1,3 +1,5 @@
+![Group](https://github.com/yegorch/view_component_kit/assets/76652963/6aa9ab6e-f56c-49bf-8815-dfedc0bf2816)
+
 # ViewComponent Kit
 
 ViewComponent Kit is your comprehensive toolkit for Ruby on Rails, built on top of the ViewComponent framework. This powerful set of tools enables you to easily and efficiently tackle a wide range of tasks in web development. Whether you're creating navigation menus, product cards, forms, or need interactive elements and toolbars, ViewComponent Kit is here to simplify your work.
