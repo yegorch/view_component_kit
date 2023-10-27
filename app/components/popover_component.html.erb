@@ -1,7 +1,9 @@
-<div class="popover">
-  <button class="popover-trigger">Open Popover</button>
-  <div class="popover-content">
-    <h3><%= @title %></h3>
-    <p><%= @content_text %></p>
-  </div>
+<div data-controller="popover">
+  <h3 class="text-capitalize"><%= @title %></h3>
+  <a href="/kits" data-action="mouseenter->popover#show mouseleave->popover#hide">Home</a>
+  <template data-popover-target="content">
+    <div data-popover-target="card">
+      <p><%= @content_text %></p>
+    </div>
+  </template>
 </div>
