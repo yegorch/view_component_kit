@@ -72,3 +72,4 @@ group :test do
 end
 
 gem "view_component"
+gem "cssbundling-rails", "~> 1.3"
