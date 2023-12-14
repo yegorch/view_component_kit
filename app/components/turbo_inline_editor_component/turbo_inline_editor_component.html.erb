@@ -1,0 +1,11 @@
+<%= content_tag :span, display_value, display_attributes %>
+<%= form_with(**form_options) do |f| %>
+  <% case @as %>
+  <% when :select %>
+    <%= f.select @value_method, @select_options, {}, input_attributes %>
+  <% when :date %>
+    <%= f.date_field @value_method, input_attributes %>
+  <% else %>
+    <%= f.text_field @value_method, input_attributes %>
+  <% end %>
+<% end %>
